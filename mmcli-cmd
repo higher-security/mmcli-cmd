@@ -1,0 +1,16 @@
+
+#!/bin/bash
+
+# Valid for mini card Ericsson H5321 gw
+
+MODEM_ID=2
+
+# Display information of modem
+
+mmcli -m $MODEM_ID
+
+# Enable modem
+
+mmcli -m $MODEM_ID -e
+
+# [...]
